@@ -2,7 +2,7 @@ import os
 
 from setuptools import setup, find_packages
 
-__version = '1.0.2'
+__version = '1.0.4'
 
 requires = [
     'pyramid>=1.4',
