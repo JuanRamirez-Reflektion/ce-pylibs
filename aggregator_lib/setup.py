@@ -10,7 +10,8 @@ requires = [
 ]
 
 packages = [
-    'product_aggregator'
+    'product_aggregator',
+    '.'
 ]
 
 setup(
@@ -24,7 +25,7 @@ setup(
     author_email='juanpaulomdq@gmail.com',
     keywords=['sarasa'],
     url='',
-    include_package_data=False,     # do not want version control data
+    include_package_data=True,     # do not want version control data
     packages=find_packages(),
     zip_safe=False,
     install_requires=requires,
